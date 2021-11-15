@@ -62,5 +62,20 @@ form.form-login{
 
 section.main{
     background: linear-gradient(white, #c5c5c7);
-    padding: 50px 0;
+    padding: 40px 0;
+}
+
+.img-pessoas{
+    float: left;
+    width: 70%;
+}
+
+.img-pessoas img{
+    max-width: 100%;
+    width: 400px;
+}
+
+.abrir-conta{
+    width: 30%;
+    float: left;
 }
