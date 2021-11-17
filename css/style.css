@@ -52,7 +52,10 @@ section{
 }
 
 .form-submit input[type=submit]{
+    color: white;
+    background-color: #1877f2;
     border-radius: 5px;
     padding: 5px 50px;
     font-size: 24px;
+    border: none;
 }
