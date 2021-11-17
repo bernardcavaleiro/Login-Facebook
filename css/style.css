@@ -7,75 +7,52 @@
 
 html,body{
     width: 100%;
-}
-
-.center{
-    max-width: 1000px;
-    padding: 0 2%;
-    margin: 0 auto;
+    background-color: #f0f2f5;
 }
 
 .clear{clear: both;}
 
-header{
-    width: 100%;
-    background-color: #5c5cff;
-    padding: 8px 0;
+input, textarea, select {outline: 0;}
+
+section{
+    max-width: 1280px;
+    display: flex;
+    justify-content:space-around; 
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    
 }
 
-.logo{
-    float: left;
-    color: white;
+
+.logo-frase h1{
+    color: #1877f2;
+    font-size: 50px;
 }
 
-.logo h2{
+.logo-frase p{
     font-size: 30px;
-    font-weight: normal;
+    color: #1c1e21
 }
 
-form.form-login{
-    float: right;
+.box-form{
+    padding: 20px;
+    text-align: center;
+    width: 396px;
+    height: 315px;
+    background-color: #fff;
+    border-radius: 20px;
+    
 }
 
-.form-login, .form-element{
-    display: inline-block;
-    margin-right: 15px;
+.form-login input[type=email], .form-login input[type=password]{
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
 }
 
-.form-element p{
-    color: white;
-    font-size: 10px;
-}
-
-.form-element input[type=submit]{
-    cursor: pointer;
-    border: 0;
-    background-color: #3232c7;
-    border: 1px solid #4242ff;
-    color: white;
-    padding: 2px 5px;
-}
-
-.form-element input[type=submit]:hover{
-    background: #20208a;
-}
-
-section.main{
-    background: linear-gradient(white, #c5c5c7);
-    padding: 40px 0;
-}
-
-.img-pessoas{
-    float: left;
-    width: 70%;
-}
-
-.img-pessoas img{
-    max-width: 100%;
-    width: 400px;
-}
-
-.abrir-conta{
-    width: 30%;
-    float: left;
+.form-submit input[type=submit]{
+    border-radius: 5px;
+    padding: 5px 50px;
+    font-size: 24px;
 }
