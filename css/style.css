@@ -33,7 +33,6 @@ section{
     margin-bottom: 130px;
 }
 
-
 .logo-frase h1{
     font-weight: 900;
     color: #1877f2;
@@ -52,10 +51,9 @@ section{
     width: 410px;
     height: 360px;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-
 
 .form-login input,.form-submit input{
     margin-top: 15px;
@@ -66,8 +64,9 @@ section{
     height: 50px;
     width: 100%;
     padding-left: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #dddfe2;
+    color: #90949c;
 }
 
 .form-submit input[type=submit]{
@@ -85,7 +84,6 @@ section{
 }
 
 div.link a{
-    
     font-size: 12px;
     color: #1877f2;
 }
