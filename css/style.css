@@ -15,14 +15,21 @@ html,body{
 input, textarea, select {outline: 0;}
 
 section{
-    max-width: 1280px;
+    height: 100vh;
     display: flex;
-    justify-content:space-around; 
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    position: absolute;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.logo-frase{
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px;
 }
 
 
@@ -32,7 +39,7 @@ section{
 }
 
 .logo-frase p{
-    font-size: 30px;
+    font-size: 20px;
     color: #1c1e21
 }
 
@@ -40,22 +47,59 @@ section{
     padding: 20px;
     text-align: center;
     width: 396px;
-    height: 315px;
+    height: 340px;
     background-color: #fff;
     border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     
 }
 
-.form-login input[type=email], .form-login input[type=password]{
+
+.form-login input,.form-submit input{
+    margin-top: 10px;
+}
+
+.form-login input[type=email], 
+.form-login input[type=password]{
+    height: 50px;
+    width: 90%;
+    padding-left: 10px;
     border-radius: 5px;
     border: 1px solid #dddfe2;
 }
 
 .form-submit input[type=submit]{
+    height: 50px;
+    width: 90%;
     color: white;
     background-color: #1877f2;
     border-radius: 5px;
     padding: 5px 50px;
     font-size: 24px;
     border: none;
+    cursor: pointer;
 }
+
+div.link{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.arrow{
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #dadde1;
+}
+
+.form-submit-new input[type=submit]{
+    margin-top: 23px;
+    height: 50px;
+    width: 40%;
+    color: white;
+    background-color: #42b72a;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    
